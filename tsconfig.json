@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngm-common": [
+        "dist/ngm-common"
+      ],
+      "ngm-common/*": [
+        "dist/ngm-common/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
